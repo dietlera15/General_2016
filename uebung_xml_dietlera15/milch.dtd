@@ -1,1 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT milch (header, produkt, footer)>
+	<!ELEMENT header (titel, autor, beschreibung?, adresse?)>
+	<!ELEMENT produkt (name, bild, tier, beschreibung?, herkunft, preis)>
+	<!ELEMENT footer (autor, adresse, quelle*)>
+	
+		<!ELEMENT titel (#PCDATA)>
+		<!ELEMENT autor (#PCDATA)>
+		<!ELEMENT beschreibung (#PCDATA)>
+		<!ELEMENT adresse (#PCDATA)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT bild (#PCDATA)>
+		<!ELEMENT tier (#PCDATA)>
+		<!ELEMENT herkunft (#PCDATA)>
+		<!ELEMENT preis (#PCDATA)>
+		<!ELEMENT quelle (#PCDATA)>
+		
+<!ATTLIST produkt typ CDATA #REQUIRED
+			menge CDATA #IMPLIED
+			fettgehalt CDATA #REQUIRED>
+<!ATTLIST bild src CDATA #REQUIRED>
+<!ATTLIST quelle link CDATA #IMPLIED>

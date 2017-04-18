@@ -3,22 +3,23 @@
 
 <milch>
 	<header>
-		<title>Milchprodukte</title>
-		<author>Dietler Andreas</author>
+		<titel>Milchprodukte</titel>
+		<autor>Dietler Andreas</autor>
 		<beschreibung>Uebung zu XML, DTD, XSD und XSLT</beschreibung>
 	</header>
 	
-	<produkt typ="Roh" menge="200ml" fettgehalt="1,25%">
-		<name>Milch</name>
-		<bild src="img/milch.jpg"/>
-		<tier>Milch</tier>
-		<beschreibung></beschreibung>
-		<herkunft>Österreich</herkunft>
-		<preis>1,20€</preis>
+	<produkt typ="unbehandelt" menge="250ml" fettgehalt="4,25%">
+		<name>Rohmilch</name>
+		<bild src="img/rmilch.jpg"/>
+		<tier>Rind</tier>
+		<beschreibung>Rohmilch ist unbehandelte Milch von Nutztieren.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
 	</produkt>
 	
 	<footer>
-		<author>Dietler Andreas</author>
-		<adresse>andreas.dietler@edu.fh-joanneum.at</adresse>		
+		<autor>Dietler Andreas</autor>
+		<adresse>andreas.dietler@edu.fh-joanneum.at</adresse>
+		<quelle link="wikipedia.org">Wikipedia</quelle>		
 	</footer>
 </milch>
