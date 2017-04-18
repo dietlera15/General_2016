@@ -10,9 +10,41 @@
 	
 	<produkt typ="unbehandelt" menge="250ml" fettgehalt="4,25%">
 		<name>Rohmilch</name>
-		<bild src="img/rmilch.jpg"/>
+		<bild src="img/rohmilch.jpg"/>
 		<tier>Rind</tier>
 		<beschreibung>Rohmilch ist unbehandelte Milch von Nutztieren.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="behandelt" menge="100ml" fettgehalt="3,5%">
+		<name>Vollmilch</name>
+		<bild src="img/vollmilch.jpg"/>
+		<tier>Rind</tier>
+		<beschreibung>Vollmilch muss wärmebehandelt sein.</beschreibung>
+		<herkunft>Jochbergwald, Österreich</herkunft>
+		<preis>0,79€</preis>
+	</produkt>
+	<produkt typ="behandelt" menge="500ml" fettgehalt="3,0%">
+		<name>Haltbarmilch</name>
+		<bild src="img/haltbarmilch.jpg"/>
+		<tier>Pferd</tier>
+		<beschreibung>H-Milch, auch Haltbarmilch, steht für durch Ultrahocherhitzung haltbar gemachte, homogenisierte Milch.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="50g" fettgehalt="4,25%">
+		<name>Butter</name>
+		<bild src="img/butter.jpg"/>
+		<tier>Rind</tier>
+		<beschreibung>Butter (mittelhochdeutsch buter, althochdeutsch butera, über lateinisch butyrum, von altgriechisch βούτυρον boútyron ‚Kuhmilchquark‘) ist ein meist aus dem Rahm von Milch hergestelltes Streichfett, das nach EU-Verordnung zu mindestens 80 Prozent aus Milchfett besteht.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+		<name>Kaese</name>
+		<bild src="img/kaese.jpg"/>
+		<tier>Schaf</tier>
+		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
 		<herkunft>Sulzberg, Österreich</herkunft>
 		<preis>1,19€</preis>
 	</produkt>

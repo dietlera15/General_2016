@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT milch (header, produkt, footer)>
+<!ELEMENT milch (header, produkt*, footer)>
 	<!ELEMENT header (titel, autor, beschreibung?, adresse?)>
 	<!ELEMENT produkt (name, bild, tier, beschreibung?, herkunft, preis)>
 	<!ELEMENT footer (autor, adresse, quelle*)>
