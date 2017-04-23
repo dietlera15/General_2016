@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<?xml-stylesheet type="text/xsl" href="milch.xsl"?>
 <!DOCTYPE milch SYSTEM "milch.dtd">
 
 <milch>
@@ -11,75 +11,75 @@
 	
 	<produkt typ="unbehandelt" menge="250ml" fettgehalt="4,25%">
 		<name>Rohmilch</name>
-		<bild src="img/rohmilch.jpg"/>
+		<bild src="img/produkt/rohmilch.jpg"/>
 		<tier>Rind</tier>
 		<beschreibung>Rohmilch ist unbehandelte Milch von Nutztieren.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
+		<herkunft>Sulzberg, Oesterreich</herkunft>
 		<preis>1,19€</preis>
 	</produkt>
 	<produkt typ="behandelt" menge="100ml" fettgehalt="3,5%">
 		<name>Vollmilch</name>
-		<bild src="img/vollmilch.jpg"/>
+		<bild src="img/produkt/vollmilch.jpg"/>
 		<tier>Rind</tier>
 		<beschreibung>Vollmilch muss wärmebehandelt sein.</beschreibung>
-		<herkunft>Jochbergwald, Österreich</herkunft>
+		<herkunft>Jochbergwald, Oesterreich</herkunft>
 		<preis>0,79€</preis>
 	</produkt>
 	<produkt typ="behandelt" menge="500ml" fettgehalt="3,0%">
 		<name>Haltbarmilch</name>
-		<bild src="img/haltbarmilch.jpg"/>
+		<bild src="img/produkt/haltbarmilch.jpg"/>
 		<tier>Pferd</tier>
 		<beschreibung>H-Milch, auch Haltbarmilch, steht für durch Ultrahocherhitzung haltbar gemachte, homogenisierte Milch.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
+		<herkunft>Glarus, Schweiz</herkunft>
 		<preis>1,19€</preis>
 	</produkt>
-	<produkt typ="fermentierte" menge="50g" fettgehalt="4,25%">
+	<produkt typ="fermentierte" menge="50g" fettgehalt="80,0%">
 		<name>Butter</name>
-		<bild src="img/butter.jpg"/>
+		<bild src="img/produkt/butter.jpg"/>
 		<tier>Rind</tier>
-		<beschreibung>Butter (mittelhochdeutsch buter, althochdeutsch butera, über lateinisch butyrum, von altgriechisch βούτυρον boútyron ‚Kuhmilchquark‘) ist ein meist aus dem Rahm von Milch hergestelltes Streichfett, das nach EU-Verordnung zu mindestens 80 Prozent aus Milchfett besteht.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
+		<beschreibung>Butter ist ein meist aus dem Rahm von Milch hergestelltes Streichfett, das nach EU-Verordnung zu mindestens 80 Prozent aus Milchfett besteht.</beschreibung>
+		<herkunft>Oberneunkirchen, Deutschland</herkunft>
+		<preis>0,89€</preis>
 	</produkt>
-	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+	<produkt typ="fermentierte" menge="100g" fettgehalt="1,0%">
 		<name>Joghurt</name>
-		<bild src="img/kaese.jpg"/>
-		<tier>Schaf</tier>
-		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
+		<bild src="img/produkt/joghurt.jpg"/>
+		<tier>Rindvieh</tier>
+		<beschreibung>Joghurt ist ein Nahrungsmittel, das aus durch Milchsäurebakterien verdickter Milch hergestellt ist.</beschreibung>
+		<herkunft>St. Martin bei Lofer, Österreich</herkunft>
+		<preis>0,69€</preis>
 	</produkt>
-	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
-		<name>Kaese</name>
-		<bild src="img/kaese.jpg"/>
-		<tier>Schaf</tier>
-		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="0,8%">
+		<name>Frischkaese</name>
+		<bild src="img/produkt/frischkaese.jpg"/>
+		<tier>Muh-Kuh</tier>
+		<beschreibung>Frischkaese sind Kaesesorten, die, im Gegensatz zu vielen anderen Kaesearten, nicht oder nur sehr wenig reifen muessen und sofort zum Verzehr bereit sind.</beschreibung>
 		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
-	</produkt>
-	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
-		<name>Blauschimmelkaese</name>
-		<bild src="img/kaese.jpg"/>
-		<tier>Schaf</tier>
-		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
+		<preis>2,99€</preis>
 	</produkt>
 	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
 		<name>Camembert</name>
-		<bild src="img/kaese.jpg"/>
-		<tier>Schaf</tier>
-		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
+		<bild src="img/produkt/camembert.jpg"/>
+		<tier>Kuh</tier>
+		<beschreibung>Camembert ist ein urspruenglich franzoesischer Weißschimmelkaese.</beschreibung>
+		<herkunft>Fretigney-et-Velloreille, Frankreich</herkunft>
+		<preis>7,99€</preis>
 	</produkt>
-	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
-		<name>Frischkaese</name>
-		<bild src="img/kaese.jpg"/>
-		<tier>Schaf</tier>
-		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
-		<herkunft>Sulzberg, Österreich</herkunft>
-		<preis>1,19€</preis>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="7,0%">
+		<name>Blauschimmelkaese</name>
+		<bild src="img/produkt/blauschimmelkaese.jpg"/>
+		<tier>Kuh</tier>
+		<beschreibung>Blauschimmelkaese ist Schimmelkaese, bei dessen Herstellung blau-gruenlich erscheinende Edelschimmelpilze wie Penicillium roqueforti und Penicillium glaucum eingesetzt werden.</beschreibung>
+		<herkunft>Zogno, Italien</herkunft>
+		<preis>2,49€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="400g" fettgehalt="35%">
+		<name>Creme Fraiche</name>
+		<bild src="img/produkt/cremefraiche.jpg"/>
+		<tier>Kuh</tier>
+		<beschreibung>Creme fraiche (frz. „Frischrahm“) ist ein urspruenglich in Frankreich entwickeltes Sauerrahmerzeugnis</beschreibung>
+		<herkunft>Cluses, Frankreich</herkunft>
+		<preis>0,59€</preis>
 	</produkt>
 	
 	<footer>
