@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="milch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element maxOccurs="unbounded" ref="produkt"/>
+        <xs:element ref="footer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titel"/>
+        <xs:element ref="autor"/>
+        <xs:element ref="beschreibung"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titel" type="xs:NCName"/>
+  <xs:element name="produkt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="bild"/>
+        <xs:element ref="tier"/>
+        <xs:element ref="beschreibung"/>
+        <xs:element ref="herkunft"/>
+        <xs:element ref="preis"/>
+      </xs:sequence>
+      <xs:attribute name="fettgehalt" use="required"/>
+      <xs:attribute name="menge" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="typ" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:NCName"/>
+  <xs:element name="bild">
+    <xs:complexType>
+      <xs:attribute name="src" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tier" type="xs:NCName"/>
+  <xs:element name="herkunft" type="xs:string"/>
+  <xs:element name="preis" type="xs:string"/>
+  <xs:element name="footer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="autor"/>
+        <xs:element ref="adresse"/>
+        <xs:element ref="quelle"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="adresse" type="xs:string"/>
+  <xs:element name="quelle">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="link" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="beschreibung" type="xs:string"/>
+</xs:schema>

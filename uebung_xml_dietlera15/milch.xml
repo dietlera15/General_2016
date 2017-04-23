@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <!DOCTYPE milch SYSTEM "milch.dtd">
 
 <milch>
@@ -41,7 +42,39 @@
 		<preis>1,19€</preis>
 	</produkt>
 	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+		<name>Joghurt</name>
+		<bild src="img/kaese.jpg"/>
+		<tier>Schaf</tier>
+		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
 		<name>Kaese</name>
+		<bild src="img/kaese.jpg"/>
+		<tier>Schaf</tier>
+		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+		<name>Blauschimmelkaese</name>
+		<bild src="img/kaese.jpg"/>
+		<tier>Schaf</tier>
+		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+		<name>Camembert</name>
+		<bild src="img/kaese.jpg"/>
+		<tier>Schaf</tier>
+		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
+		<herkunft>Sulzberg, Österreich</herkunft>
+		<preis>1,19€</preis>
+	</produkt>
+	<produkt typ="fermentierte" menge="200g" fettgehalt="4,25%">
+		<name>Frischkaese</name>
 		<bild src="img/kaese.jpg"/>
 		<tier>Schaf</tier>
 		<beschreibung>äse ist ein festes Milcherzeugnis[1], das – bis auf wenige Ausnahmen – durch Gerinnen aus einem Eiweißanteil der Milch, dem Kasein, gewonnen wird.</beschreibung>
